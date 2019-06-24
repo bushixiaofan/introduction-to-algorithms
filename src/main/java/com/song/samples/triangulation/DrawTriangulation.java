@@ -92,6 +92,8 @@ public class DrawTriangulation extends JFrame {
         b3.setBounds(450, 520, 100, 40);
         b3.addActionListener(e -> {
             CardLayout cl = (CardLayout) (cards.getLayout());
+            xList = Lists.newArrayList();
+            yList = Lists.newArrayList();
             cl.show(cards, "card0");
         });
 
